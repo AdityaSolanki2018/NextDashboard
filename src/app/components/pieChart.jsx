@@ -2,21 +2,21 @@ import React from "react";
 import { Chart } from "react-google-charts";
 
 const data = [
-  ["Task", "Hours per Day"],
-  ["Work", 11],
-  ["Eat", 2],
-  ["Commute", 2],
-  ["Watch TV", 2],
-  ["Sleep", 7],
+  ["Type Of Querry", "Number"],
+  ["Consultation", 11],
+  ["Design", 2],
+  ["Maintainance", 2],
+  ["Installation", 2],
+  ["Others", 7],
 ];
 
 // Optional
 const options = {
-  title: "My Daily Activities",
+  title: "Querry Tags",
 };
 
 function PieChart() {
-  return <Chart chartType="PieChart" data={data} options={options} />;
+  return <Chart chartType="PieChart" width="100%" height="350px" data={data} options={options} />;
 }
 
 export default PieChart;

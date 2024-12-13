@@ -29,7 +29,7 @@ export default function BarChart() {
       // Bar is the equivalent chart type for the material design version.
       chartType="BarChart"
       width="100%"
-      height="400px"
+      height="700px"
       data={data}
       options={options}
     />

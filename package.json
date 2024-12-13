@@ -13,10 +13,12 @@
     "@emotion/styled": "^11.14.0",
     "@mui/icons-material": "^6.2.0",
     "@mui/material": "^6.2.0",
+    "material-react-table": "^3.0.2",
     "next": "15.0.4",
     "prop-types": "^15.8.1",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-google-charts": "^5.2.1"
   },
   "devDependencies": {
     "@types/node": "^20",

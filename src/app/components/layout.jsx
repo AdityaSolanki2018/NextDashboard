@@ -113,7 +113,7 @@ function Layout(props) {
         </ListItem>
       </List>
 
-      <Collapse in={isCollapse} timeout="auto" unamountOnExit>
+      <Collapse in={isCollapse} timeout="auto" unamountOnExit="true">
         <List className="ml-4">
           {["Sales", "Help"].map((text, index) => (
             <ListItem

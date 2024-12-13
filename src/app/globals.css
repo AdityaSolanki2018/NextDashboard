@@ -5,3 +5,7 @@
 body{
   background-color: white;
 }
+.roundProgress{
+  height: 50px;
+  width: 50px;
+}

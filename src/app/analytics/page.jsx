@@ -10,11 +10,11 @@ function Analytics() {
       <Layout>
         <h1 className="text-3xl font-bold mb-10">Analytics Section</h1>
         <div className="grid grid-cols-12 gap-5">
-          <div className="col-span-6 shadow-lg">
+          <div className="col-span-12 lg:col-span-6 shadow-lg">
             <PieChart />
             <div className=""><LineChart/></div> 
             </div>
-          <div className="col-span-6 shadow-lg"><BarChart /></div>
+          <div className="col-span-12 lg:col-span-6 shadow-lg"><BarChart /></div>
         </div> 
               
       </Layout>
